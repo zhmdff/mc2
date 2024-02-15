@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const { runRconCommand } = require('./rcon'); // Import the function from rcon.js
+const { runRconCommand } = require('./mineflayer'); // Import the function from rcon.js
 
 const app = express();
 const PORT = 3000; // Choose any available port
